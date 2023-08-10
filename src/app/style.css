@@ -1,3 +1,18 @@
-.test {
-  color: purple;
+.header {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  background-image: url('../assets/pic/kacha.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  border-radius: 5px;
 }
